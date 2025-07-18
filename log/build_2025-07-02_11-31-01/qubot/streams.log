@@ -1,0 +1,66 @@
+[0.038s] Invoking command in '/home/sidubuntu/dev_ws/build/qubot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sidubuntu/dev_ws/src/qubot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sidubuntu/dev_ws/install/qubot
+[0.383s] -- The C compiler identification is GNU 11.4.0
+[0.989s] -- The CXX compiler identification is GNU 11.4.0
+[1.282s] -- Detecting C compiler ABI info
+[1.420s] -- Detecting C compiler ABI info - done
+[1.426s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.427s] -- Detecting C compile features
+[1.428s] -- Detecting C compile features - done
+[1.433s] -- Detecting CXX compiler ABI info
+[1.575s] -- Detecting CXX compiler ABI info - done
+[1.581s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.581s] -- Detecting CXX compile features
+[1.582s] -- Detecting CXX compile features - done
+[1.588s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.737s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.812s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.870s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.964s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.969s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.970s] -- Added test 'lint_cmake' to check CMake code style
+[1.972s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.974s] -- Added test 'xmllint' to check XML markup files
+[1.976s] -- Configuring done
+[1.980s] -- Generating done
+[1.981s] -- Build files have been written to: /home/sidubuntu/dev_ws/build/qubot
+[1.986s] Invoked command in '/home/sidubuntu/dev_ws/build/qubot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sidubuntu/dev_ws/src/qubot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sidubuntu/dev_ws/install/qubot
+[1.989s] Invoking command in '/home/sidubuntu/dev_ws/build/qubot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/qubot -- -j8 -l8
+[2.023s] Invoked command in '/home/sidubuntu/dev_ws/build/qubot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/qubot -- -j8 -l8
+[2.025s] Invoking command in '/home/sidubuntu/dev_ws/build/qubot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/qubot
+[2.032s] -- Install configuration: ""
+[2.033s] -- Execute custom install script
+[2.035s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/config/drive_bot.rviz
+[2.042s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/config/empty.yaml
+[2.050s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/config/mapper_params_online_async.yaml
+[2.058s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/config/nav2_params.yaml
+[2.066s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/config/twist_mux.yaml
+[2.074s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/config/view_bot.rviz
+[2.082s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/description/camera.xacro
+[2.090s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/description/gazebo_control.xacro
+[2.098s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/description/inertial_macros.xacro
+[2.106s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/description/lidar.xacro
+[2.115s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/description/robot.urdf.xacro
+[2.123s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/description/robot_core.xacro
+[2.131s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/launch/launch_sim.launch.py
+[2.140s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/launch/localization_launch.py
+[2.148s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/launch/navigation_launch.py
+[2.157s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/launch/rsp.launch.py
+[2.165s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/worlds/empty.world
+[2.173s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/worlds/obstacle_course_1
+[2.181s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/worlds/obstacles.world
+[2.190s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/ament_index/resource_index/package_run_dependencies/qubot
+[2.198s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/ament_index/resource_index/parent_prefix_path/qubot
+[2.206s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/environment/ament_prefix_path.sh
+[2.215s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/environment/ament_prefix_path.dsv
+[2.223s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/environment/path.sh
+[2.231s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/environment/path.dsv
+[2.239s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/local_setup.bash
+[2.247s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/local_setup.sh
+[2.255s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/local_setup.zsh
+[2.264s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/local_setup.dsv
+[2.272s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/package.dsv
+[2.281s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/ament_index/resource_index/packages/qubot
+[2.289s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/cmake/qubotConfig.cmake
+[2.297s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/cmake/qubotConfig-version.cmake
+[2.305s] -- Symlinking: /home/sidubuntu/dev_ws/install/qubot/share/qubot/package.xml
+[2.316s] Invoked command in '/home/sidubuntu/dev_ws/build/qubot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/qubot

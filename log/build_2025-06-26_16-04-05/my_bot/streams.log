@@ -1,0 +1,40 @@
+[0.316s] Invoking command in '/home/sidubuntu/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/my_bot -- -j8 -l8
+[2.777s] Invoked command in '/home/sidubuntu/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/my_bot -- -j8 -l8
+[2.841s] Invoking command in '/home/sidubuntu/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/my_bot
+[3.015s] -- Install configuration: ""
+[3.018s] -- Execute custom install script
+[3.022s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[3.022s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[3.023s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[3.024s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/config/nav2_params.yaml
+[3.024s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/config/twist_mux.yaml
+[3.024s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[3.166s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/description/camera.xacro
+[3.179s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[3.180s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[3.181s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[3.181s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[3.182s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[3.184s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[3.184s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/launch/localization_launch.py
+[3.261s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/launch/navigation_launch.py
+[3.261s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[3.263s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[3.264s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/worlds/obstacle_course_1
+[3.266s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/worlds/obstacles.world
+[3.266s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[3.266s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[3.266s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[3.266s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[3.267s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[3.268s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[3.269s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[3.270s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[3.270s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[3.271s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[3.271s] -- Symlinking: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/package.dsv
+[3.300s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[3.315s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[3.316s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[3.317s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/my_bot/share/my_bot/package.xml
+[3.431s] Invoked command in '/home/sidubuntu/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/my_bot

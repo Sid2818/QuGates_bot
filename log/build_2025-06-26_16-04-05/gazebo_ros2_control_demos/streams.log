@@ -1,0 +1,70 @@
+[0.353s] Invoking command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/sidubuntu/dev_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sidubuntu/dev_ws/install/gazebo_ros2_control:/home/sidubuntu/install/q_bot:/home/sidubuntu/install/my_bot:/home/sidubuntu/install/gazebo_ros2_control_demos:/home/sidubuntu/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/sidubuntu/dev_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos -- -j8 -l8
+[0.444s] [ 14%] Built target example_effort
+[0.567s] [ 28%] Built target example_position_pid
+[0.586s] [ 42%] Built target example_position
+[0.637s] [ 57%] Built target example_tricycle_drive
+[0.649s] [ 71%] Built target example_diff_drive
+[0.665s] [ 85%] Built target example_gripper
+[0.681s] [100%] Built target example_velocity
+[0.706s] Invoked command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/sidubuntu/dev_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sidubuntu/dev_ws/install/gazebo_ros2_control:/home/sidubuntu/install/q_bot:/home/sidubuntu/install/my_bot:/home/sidubuntu/install/gazebo_ros2_control_demos:/home/sidubuntu/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/sidubuntu/dev_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos -- -j8 -l8
+[0.711s] Invoking command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/sidubuntu/dev_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sidubuntu/dev_ws/install/gazebo_ros2_control:/home/sidubuntu/install/q_bot:/home/sidubuntu/install/my_bot:/home/sidubuntu/install/gazebo_ros2_control_demos:/home/sidubuntu/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/sidubuntu/dev_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos
+[0.719s] -- Install configuration: ""
+[0.720s] -- Execute custom install script
+[0.728s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[0.729s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[0.730s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[0.730s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[0.731s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_namespaced.launch.py
+[0.732s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_pair_namespaced.launch.py
+[0.733s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[0.734s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[0.734s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py
+[0.735s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[0.736s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py
+[0.736s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pids_in_yaml.launch.py
+[0.737s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py
+[0.739s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+[0.740s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+[0.741s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml
+[0.741s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position_with_pids.yaml
+[0.742s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+[0.743s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[0.743s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[0.744s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller_namespaced.yaml
+[0.745s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[0.746s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[0.747s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[0.748s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[0.749s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[0.749s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[0.750s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive_namespaced.xacro.urdf
+[0.751s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[0.751s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[0.752s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[0.753s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[0.754s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf
+[0.754s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pids_in_yaml.xacro.urdf
+[0.755s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf
+[0.756s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[0.757s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid
+[0.758s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[0.759s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[0.760s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[0.760s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[0.761s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[0.762s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[0.763s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[0.764s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[0.765s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[0.765s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[0.766s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[0.767s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[0.767s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[0.768s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[0.769s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[0.769s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[0.792s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[0.793s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[0.793s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[0.794s] -- Up-to-date symlink: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[0.797s] Invoked command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/sidubuntu/dev_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sidubuntu/dev_ws/install/gazebo_ros2_control:/home/sidubuntu/install/q_bot:/home/sidubuntu/install/my_bot:/home/sidubuntu/install/gazebo_ros2_control_demos:/home/sidubuntu/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/sidubuntu/dev_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos

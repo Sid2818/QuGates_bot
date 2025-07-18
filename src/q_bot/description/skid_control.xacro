@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <gazebo>
+        <plugin name = "skid_steer_drive_controller" filename = "libgazebo_ros_skid_steer_drive.so">
+
+            <updateRate>100.0</updateRate>
+            <robotNamespace> </robotNamespace>
+
+
+            <!-- Wheel information -->
+            <leftFrontJoint>left_wheel_front_joint</leftFrontJoint>
+            <leftRearJoint>left_wheel_back_joint</leftRearJoint>
+            <rightFrontJoint>right_wheel_front_joint</rightFrontJoint>
+            <rightRearJoint>right_wheel_back_joint</rightRearJoint> 
+            <wheelSeparation>0.35</wheelSeparation>
+            <wheelDiameter>0.1</wheelDiameter>
+
+            <!-- Limits -->
+            <maxWheelTorque>200</maxWheelTorque>
+            <maxWheelAcceleration>10.0</maxWheelAcceleration>
+
+            <!-- Output -->
+            <odometryFrame>odom</odometryFrame>
+            <robotBaseFrame>base_link</robotBaseFrame>
+
+            <commandTopic>diff_cont/cmd_vel_unstamped</commandTopic>
+            <odometryTopic>odom</odometryTopic>
+
+            <publishOdom>true</publishOdom>
+            <publishOdomTf>true</publishOdomTf>
+            <publishWheelTf>true</publishWheelTf>
+            <publishWheelJointState>true</publishWheelJointState>
+
+            <covariance_x>0.0001</covariance_x>
+            <covariance_y>0.0001</covariance_y>
+            <covariance_yaw>0.01</covariance_yaw>
+
+        </plugin>
+    </gazebo>
+
+
+</robot>

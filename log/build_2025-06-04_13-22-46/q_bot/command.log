@@ -1,0 +1,6 @@
+Invoking command in '/home/sidubuntu/dev_ws/build/q_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sidubuntu/dev_ws/src/q_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sidubuntu/dev_ws/install/q_bot
+Invoked command in '/home/sidubuntu/dev_ws/build/q_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sidubuntu/dev_ws/src/q_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sidubuntu/dev_ws/install/q_bot
+Invoking command in '/home/sidubuntu/dev_ws/build/q_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/q_bot -- -j8 -l8
+Invoked command in '/home/sidubuntu/dev_ws/build/q_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/q_bot -- -j8 -l8
+Invoking command in '/home/sidubuntu/dev_ws/build/q_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/q_bot
+Invoked command in '/home/sidubuntu/dev_ws/build/q_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/q_bot

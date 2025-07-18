@@ -1,0 +1,126 @@
+[0.064s] Invoking command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sidubuntu/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sidubuntu/dev_ws/install/gazebo_ros2_control
+[0.226s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.564s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.605s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.611s] -- Found controller_manager: 2.50.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.866s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.874s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.894s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.926s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.958s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.983s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.990s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.055s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.079s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.228s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.240s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.366s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.570s] -- Found control_toolbox: 3.6.1 (/opt/ros/humble/share/control_toolbox/cmake)
+[3.653s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[3.729s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.827s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.831s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.851s] -- Searching for dependencies of ignition-math6
+[3.858s] -- Looking for OGRE...
+[3.871s] -- Found Ogre Ghadamon (1.9.0)
+[3.872s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.891s] -- Looking for OGRE_Paging...
+[3.892s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.892s] -- Looking for OGRE_Terrain...
+[3.892s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.893s] -- Looking for OGRE_Property...
+[3.893s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.893s] -- Looking for OGRE_RTShaderSystem...
+[3.893s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.894s] -- Looking for OGRE_Volume...
+[3.894s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.894s] -- Looking for OGRE_Overlay...
+[3.894s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[30.371s] -- Looking for ignition-math6 -- found version 6.15.1
+[30.373s] -- Looking for ignition-transport8 -- found version 8.2.1
+[30.373s] -- Searching for dependencies of ignition-transport8
+[31.968s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[33.560s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[33.566s] -- Checking for module 'libzmq >= 4'
+[33.589s] --   Found libzmq , version 4.3.4
+[33.654s] -- Checking for module 'uuid'
+[33.672s] --   Found uuid, version 2.37.2
+[33.712s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[33.712s] -- Searching for dependencies of ignition-msgs5
+[35.382s] -- Looking for ignition-math6 -- found version 6.15.1
+[35.399s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[35.401s] -- Looking for ignition-common3 -- found version 3.14.0
+[35.402s] -- Searching for dependencies of ignition-common3
+[35.403s] -- Looking for dlfcn.h - found
+[35.403s] -- Looking for libdl - found
+[35.523s] -- Searching for <ignition-common3> component [graphics]
+[35.525s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[35.525s] -- Searching for dependencies of ignition-common3-graphics
+[35.526s] -- Looking for ignition-math6 -- found version 6.15.1
+[35.530s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[35.531s] -- Searching for dependencies of ignition-fuel_tools4
+[37.505s] -- Checking for module 'jsoncpp'
+[37.520s] --   Found jsoncpp, version 1.9.5
+[37.570s] -- Checking for module 'libzip'
+[37.588s] --   Found libzip, version 1.7.3
+[37.633s] -- Looking for ignition-common3 -- found version 3.14.0
+[37.633s] -- Looking for ignition-math6 -- found version 6.15.1
+[37.634s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[37.640s] -- Gazebo version: 11.10
+[37.641s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[37.656s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[37.716s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[37.720s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[37.913s] -- Added test 'copyright' to check source files copyright and LICENSE
+[37.916s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[37.917s] -- Configured cppcheck include dirs: /home/sidubuntu/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control/include
+[37.918s] -- Configured cppcheck exclude dirs and/or files: 
+[37.919s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[37.920s] -- Configured cpplint exclude dirs and/or files: 
+[37.922s] -- Added test 'lint_cmake' to check CMake code style
+[37.924s] -- Added test 'uncrustify' to check C / C++ code style
+[37.924s] -- Configured uncrustify additional arguments: 
+[37.926s] -- Added test 'xmllint' to check XML markup files
+[37.934s] -- Configuring done
+[38.223s] -- Generating done
+[38.242s] -- Build files have been written to: /home/sidubuntu/dev_ws/build/gazebo_ros2_control
+[38.269s] Invoked command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sidubuntu/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sidubuntu/dev_ws/install/gazebo_ros2_control
+[38.271s] Invoking command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/gazebo_ros2_control -- -j8 -l8
+[38.350s] [35m[1mConsolidate compiler generated dependencies of target gazebo_hardware_plugins[0m
+[38.350s] [35m[1mConsolidate compiler generated dependencies of target gazebo_ros2_control[0m
+[38.398s] [ 50%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[38.399s] [ 50%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[40.368s] [ 75%] Built target gazebo_hardware_plugins
+[40.446s] [100%] Built target gazebo_ros2_control
+[40.459s] Invoked command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/gazebo_ros2_control -- -j8 -l8
+[40.460s] Invoking command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/gazebo_ros2_control
+[40.467s] -- Install configuration: ""
+[40.468s] -- Execute custom install script
+[40.468s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[40.477s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[40.488s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[40.500s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[40.515s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[40.527s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[40.536s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[40.546s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[40.555s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[40.565s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[40.574s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[40.583s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[40.594s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[40.605s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[40.616s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[40.627s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[40.638s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[40.648s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[40.659s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[40.672s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[40.685s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[40.696s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.708s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.717s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[40.729s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[40.739s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[40.749s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[40.761s] Invoked command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/gazebo_ros2_control

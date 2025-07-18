@@ -1,0 +1,1 @@
+/home/sidubuntu/dev_ws/src/q_bot/launch/launch_sim.launch.py

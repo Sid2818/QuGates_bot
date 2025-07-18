@@ -1,0 +1,1 @@
+/home/sidubuntu/dev_ws/build/qubot/ament_cmake_environment_hooks/local_setup.bash

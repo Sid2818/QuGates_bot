@@ -1,0 +1,877 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.000473] (-) JobUnselected: {'identifier': 'my_bot'}
+[0.000544] (-) JobUnselected: {'identifier': 'q_bot'}
+[0.001339] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.001424] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.012374] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[0.013996] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '/home/sidubuntu/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control', '-DCMAKE_INSTALL_PREFIX=/home/sidubuntu/dev_ws/install/gazebo_ros2_control'], 'cwd': '/home/sidubuntu/dev_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sidubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/sidubuntu'), ('OLDPWD', '/home/sidubuntu/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sidubuntu/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sidubuntu'), ('NAME', 'SidLappy'), ('WSL_INTEROP', '/run/WSL/34102_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/reach/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/reach/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/reach/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/reach/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sidubuntu/dev_ws/install/q_bot:/home/sidubuntu/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sidubuntu/dev_ws/build/gazebo_ros2_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sidubuntu/dev_ws/install/q_bot:/home/sidubuntu/dev_ws/install/my_bot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.099701] (-) TimerEvent: {}
+[0.203943] (-) TimerEvent: {}
+[0.308332] (-) TimerEvent: {}
+[0.342481] (gazebo_ros2_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.412958] (-) TimerEvent: {}
+[0.518174] (-) TimerEvent: {}
+[0.623456] (-) TimerEvent: {}
+[0.728934] (-) TimerEvent: {}
+[0.834173] (-) TimerEvent: {}
+[0.938619] (-) TimerEvent: {}
+[1.002513] (gazebo_ros2_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.039745] (-) TimerEvent: {}
+[1.144394] (-) TimerEvent: {}
+[1.249190] (-) TimerEvent: {}
+[1.354450] (-) TimerEvent: {}
+[1.459699] (-) TimerEvent: {}
+[1.470367] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.563754] (-) TimerEvent: {}
+[1.668448] (-) TimerEvent: {}
+[1.701397] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.713205] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.714335] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.716001] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.722315] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.769769] (-) TimerEvent: {}
+[1.874384] (-) TimerEvent: {}
+[1.938876] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.952999] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.953349] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.954150] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.978412] (-) TimerEvent: {}
+[1.984759] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.079824] (-) TimerEvent: {}
+[2.185074] (-) TimerEvent: {}
+[2.225429] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.289128] (-) TimerEvent: {}
+[2.393504] (-) TimerEvent: {}
+[2.401958] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[2.413409] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 2.50.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[2.497470] (-) TimerEvent: {}
+[2.599761] (-) TimerEvent: {}
+[2.705046] (-) TimerEvent: {}
+[2.711127] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.725816] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.756283] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.793705] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.809167] (-) TimerEvent: {}
+[2.835851] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.913842] (-) TimerEvent: {}
+[3.018315] (-) TimerEvent: {}
+[3.119869] (-) TimerEvent: {}
+[3.225135] (-) TimerEvent: {}
+[3.329389] (-) TimerEvent: {}
+[3.433714] (-) TimerEvent: {}
+[3.538095] (-) TimerEvent: {}
+[3.639786] (-) TimerEvent: {}
+[3.744195] (-) TimerEvent: {}
+[3.848576] (-) TimerEvent: {}
+[3.953833] (-) TimerEvent: {}
+[4.058575] (-) TimerEvent: {}
+[4.159862] (-) TimerEvent: {}
+[4.264134] (-) TimerEvent: {}
+[4.368423] (-) TimerEvent: {}
+[4.472713] (-) TimerEvent: {}
+[4.577089] (-) TimerEvent: {}
+[4.679734] (-) TimerEvent: {}
+[4.784107] (-) TimerEvent: {}
+[4.888498] (-) TimerEvent: {}
+[4.989853] (-) TimerEvent: {}
+[5.094226] (-) TimerEvent: {}
+[5.153632] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.159943] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.198334] (-) TimerEvent: {}
+[5.219303] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[5.282296] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.288790] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[5.299733] (-) TimerEvent: {}
+[5.404048] (-) TimerEvent: {}
+[5.493933] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.499206] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[5.508086] (-) TimerEvent: {}
+[5.510617] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[5.612114] (-) TimerEvent: {}
+[5.616342] (gazebo_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.640992] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.716121] (-) TimerEvent: {}
+[5.819744] (-) TimerEvent: {}
+[5.866622] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.866990] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.923675] (-) TimerEvent: {}
+[6.028026] (-) TimerEvent: {}
+[6.055209] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.056619] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.129726] (-) TimerEvent: {}
+[6.234819] (-) TimerEvent: {}
+[6.316494] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found control_toolbox: 3.6.1 (/opt/ros/humble/share/control_toolbox/cmake)\n'}
+[6.338957] (-) TimerEvent: {}
+[6.408922] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[6.423075] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[6.424408] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[6.439620] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[6.439895] (-) TimerEvent: {}
+[6.544032] (-) TimerEvent: {}
+[6.619021] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[6.648017] (-) TimerEvent: {}
+[6.677150] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[6.706985] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[6.749879] (-) TimerEvent: {}
+[6.763097] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[6.854735] (-) TimerEvent: {}
+[6.960048] (-) TimerEvent: {}
+[7.064323] (-) TimerEvent: {}
+[7.168801] (-) TimerEvent: {}
+[7.274217] (-) TimerEvent: {}
+[7.367829] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[7.378239] (-) TimerEvent: {}
+[7.379094] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.400382] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[7.406088] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[7.406711] (gazebo_ros2_control) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[7.413307] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[7.429774] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[7.473532] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[7.479771] (-) TimerEvent: {}
+[7.583957] (-) TimerEvent: {}
+[7.688772] (-) TimerEvent: {}
+[7.794025] (-) TimerEvent: {}
+[7.899658] (-) TimerEvent: {}
+[8.005625] (-) TimerEvent: {}
+[8.050370] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[8.062776] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[8.110304] (-) TimerEvent: {}
+[8.216131] (-) TimerEvent: {}
+[8.322055] (-) TimerEvent: {}
+[8.428014] (-) TimerEvent: {}
+[8.533979] (-) TimerEvent: {}
+[8.616987] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[8.617680] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[8.638231] (-) TimerEvent: {}
+[8.742715] (-) TimerEvent: {}
+[8.848781] (-) TimerEvent: {}
+[8.954815] (-) TimerEvent: {}
+[9.060821] (-) TimerEvent: {}
+[9.161097] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[9.161418] (-) TimerEvent: {}
+[9.161660] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[9.267109] (-) TimerEvent: {}
+[9.372947] (-) TimerEvent: {}
+[9.479066] (-) TimerEvent: {}
+[9.585088] (-) TimerEvent: {}
+[9.691098] (-) TimerEvent: {}
+[9.736185] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[9.736414] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[9.795974] (-) TimerEvent: {}
+[9.902015] (-) TimerEvent: {}
+[10.008043] (-) TimerEvent: {}
+[10.114045] (-) TimerEvent: {}
+[10.220079] (-) TimerEvent: {}
+[10.267649] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[10.268250] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[10.324953] (-) TimerEvent: {}
+[10.430678] (-) TimerEvent: {}
+[10.536631] (-) TimerEvent: {}
+[10.641508] (-) TimerEvent: {}
+[10.747485] (-) TimerEvent: {}
+[10.780030] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[10.780264] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[10.852607] (-) TimerEvent: {}
+[10.958604] (-) TimerEvent: {}
+[11.064577] (-) TimerEvent: {}
+[11.170548] (-) TimerEvent: {}
+[11.275246] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[11.275501] (-) TimerEvent: {}
+[11.381336] (-) TimerEvent: {}
+[11.487212] (-) TimerEvent: {}
+[11.593184] (-) TimerEvent: {}
+[11.699159] (-) TimerEvent: {}
+[11.805132] (-) TimerEvent: {}
+[11.911130] (-) TimerEvent: {}
+[12.017182] (-) TimerEvent: {}
+[12.119821] (-) TimerEvent: {}
+[12.225143] (-) TimerEvent: {}
+[12.331383] (-) TimerEvent: {}
+[12.437354] (-) TimerEvent: {}
+[12.542883] (-) TimerEvent: {}
+[12.648818] (-) TimerEvent: {}
+[12.754349] (-) TimerEvent: {}
+[12.859105] (-) TimerEvent: {}
+[12.964274] (-) TimerEvent: {}
+[13.068651] (-) TimerEvent: {}
+[13.169855] (-) TimerEvent: {}
+[13.275096] (-) TimerEvent: {}
+[13.379490] (-) TimerEvent: {}
+[13.483907] (-) TimerEvent: {}
+[13.588335] (-) TimerEvent: {}
+[13.689850] (-) TimerEvent: {}
+[13.794094] (-) TimerEvent: {}
+[13.898402] (-) TimerEvent: {}
+[14.002827] (-) TimerEvent: {}
+[14.107250] (-) TimerEvent: {}
+[14.209870] (-) TimerEvent: {}
+[14.315058] (-) TimerEvent: {}
+[14.420312] (-) TimerEvent: {}
+[14.524951] (-) TimerEvent: {}
+[14.629255] (-) TimerEvent: {}
+[14.733637] (-) TimerEvent: {}
+[14.837950] (-) TimerEvent: {}
+[14.942632] (-) TimerEvent: {}
+[15.047849] (-) TimerEvent: {}
+[15.152124] (-) TimerEvent: {}
+[15.256393] (-) TimerEvent: {}
+[15.360787] (-) TimerEvent: {}
+[15.465016] (-) TimerEvent: {}
+[15.569334] (-) TimerEvent: {}
+[15.673645] (-) TimerEvent: {}
+[15.778018] (-) TimerEvent: {}
+[15.879843] (-) TimerEvent: {}
+[15.984071] (-) TimerEvent: {}
+[16.088353] (-) TimerEvent: {}
+[16.192660] (-) TimerEvent: {}
+[16.296981] (-) TimerEvent: {}
+[16.403019] (-) TimerEvent: {}
+[16.504226] (-) TimerEvent: {}
+[16.608456] (-) TimerEvent: {}
+[16.709865] (-) TimerEvent: {}
+[16.814265] (-) TimerEvent: {}
+[16.918493] (-) TimerEvent: {}
+[17.022819] (-) TimerEvent: {}
+[17.127305] (-) TimerEvent: {}
+[17.231568] (-) TimerEvent: {}
+[17.335885] (-) TimerEvent: {}
+[17.440228] (-) TimerEvent: {}
+[17.544565] (-) TimerEvent: {}
+[17.648843] (-) TimerEvent: {}
+[17.753368] (-) TimerEvent: {}
+[17.857735] (-) TimerEvent: {}
+[17.959912] (-) TimerEvent: {}
+[18.064131] (-) TimerEvent: {}
+[18.169264] (-) TimerEvent: {}
+[18.273645] (-) TimerEvent: {}
+[18.378149] (-) TimerEvent: {}
+[18.483387] (-) TimerEvent: {}
+[18.588625] (-) TimerEvent: {}
+[18.693263] (-) TimerEvent: {}
+[18.798562] (-) TimerEvent: {}
+[18.902893] (-) TimerEvent: {}
+[19.007310] (-) TimerEvent: {}
+[19.111816] (-) TimerEvent: {}
+[19.216064] (-) TimerEvent: {}
+[19.320385] (-) TimerEvent: {}
+[19.424716] (-) TimerEvent: {}
+[19.529130] (-) TimerEvent: {}
+[19.634306] (-) TimerEvent: {}
+[19.739349] (-) TimerEvent: {}
+[19.843603] (-) TimerEvent: {}
+[19.948096] (-) TimerEvent: {}
+[20.049698] (-) TimerEvent: {}
+[20.154514] (-) TimerEvent: {}
+[20.259680] (-) TimerEvent: {}
+[20.364942] (-) TimerEvent: {}
+[20.470237] (-) TimerEvent: {}
+[20.575444] (-) TimerEvent: {}
+[20.679830] (-) TimerEvent: {}
+[20.784998] (-) TimerEvent: {}
+[20.889292] (-) TimerEvent: {}
+[20.993659] (-) TimerEvent: {}
+[21.097988] (-) TimerEvent: {}
+[21.203224] (-) TimerEvent: {}
+[21.308505] (-) TimerEvent: {}
+[21.413749] (-) TimerEvent: {}
+[21.518935] (-) TimerEvent: {}
+[21.624146] (-) TimerEvent: {}
+[21.728998] (-) TimerEvent: {}
+[21.834196] (-) TimerEvent: {}
+[21.938644] (-) TimerEvent: {}
+[22.043895] (-) TimerEvent: {}
+[22.148632] (-) TimerEvent: {}
+[22.253459] (-) TimerEvent: {}
+[22.357728] (-) TimerEvent: {}
+[22.459716] (-) TimerEvent: {}
+[22.564489] (-) TimerEvent: {}
+[22.668873] (-) TimerEvent: {}
+[22.774025] (-) TimerEvent: {}
+[22.879259] (-) TimerEvent: {}
+[22.984372] (-) TimerEvent: {}
+[23.088644] (-) TimerEvent: {}
+[23.193531] (-) TimerEvent: {}
+[23.298697] (-) TimerEvent: {}
+[23.403953] (-) TimerEvent: {}
+[23.509176] (-) TimerEvent: {}
+[23.614377] (-) TimerEvent: {}
+[23.719104] (-) TimerEvent: {}
+[23.824280] (-) TimerEvent: {}
+[23.929471] (-) TimerEvent: {}
+[24.033906] (-) TimerEvent: {}
+[24.138416] (-) TimerEvent: {}
+[24.243522] (-) TimerEvent: {}
+[24.348639] (-) TimerEvent: {}
+[24.453697] (-) TimerEvent: {}
+[24.558778] (-) TimerEvent: {}
+[24.663447] (-) TimerEvent: {}
+[24.768544] (-) TimerEvent: {}
+[24.873725] (-) TimerEvent: {}
+[24.978896] (-) TimerEvent: {}
+[25.079757] (-) TimerEvent: {}
+[25.184545] (-) TimerEvent: {}
+[25.289720] (-) TimerEvent: {}
+[25.394806] (-) TimerEvent: {}
+[25.499960] (-) TimerEvent: {}
+[25.605136] (-) TimerEvent: {}
+[25.709763] (-) TimerEvent: {}
+[25.814969] (-) TimerEvent: {}
+[25.919547] (-) TimerEvent: {}
+[26.024671] (-) TimerEvent: {}
+[26.129028] (-) TimerEvent: {}
+[26.234231] (-) TimerEvent: {}
+[26.339393] (-) TimerEvent: {}
+[26.444544] (-) TimerEvent: {}
+[26.549657] (-) TimerEvent: {}
+[26.654812] (-) TimerEvent: {}
+[26.759803] (-) TimerEvent: {}
+[26.864928] (-) TimerEvent: {}
+[26.970119] (-) TimerEvent: {}
+[27.075310] (-) TimerEvent: {}
+[27.180515] (-) TimerEvent: {}
+[27.284519] (-) TimerEvent: {}
+[27.385462] (-) TimerEvent: {}
+[27.486349] (-) TimerEvent: {}
+[27.587292] (-) TimerEvent: {}
+[27.691109] (-) TimerEvent: {}
+[27.792035] (-) TimerEvent: {}
+[27.893006] (-) TimerEvent: {}
+[27.993966] (-) TimerEvent: {}
+[28.094895] (-) TimerEvent: {}
+[28.196087] (-) TimerEvent: {}
+[28.297508] (-) TimerEvent: {}
+[28.399004] (-) TimerEvent: {}
+[28.500478] (-) TimerEvent: {}
+[28.601939] (-) TimerEvent: {}
+[28.705482] (-) TimerEvent: {}
+[28.806953] (-) TimerEvent: {}
+[28.908507] (-) TimerEvent: {}
+[29.009996] (-) TimerEvent: {}
+[29.111471] (-) TimerEvent: {}
+[29.213266] (-) TimerEvent: {}
+[29.315218] (-) TimerEvent: {}
+[29.417191] (-) TimerEvent: {}
+[29.519157] (-) TimerEvent: {}
+[29.621111] (-) TimerEvent: {}
+[29.724412] (-) TimerEvent: {}
+[29.826384] (-) TimerEvent: {}
+[29.928315] (-) TimerEvent: {}
+[30.030199] (-) TimerEvent: {}
+[30.133803] (-) TimerEvent: {}
+[30.236005] (-) TimerEvent: {}
+[30.338310] (-) TimerEvent: {}
+[30.442224] (-) TimerEvent: {}
+[30.544535] (-) TimerEvent: {}
+[30.646835] (-) TimerEvent: {}
+[30.749858] (-) TimerEvent: {}
+[30.852284] (-) TimerEvent: {}
+[30.954624] (-) TimerEvent: {}
+[31.056974] (-) TimerEvent: {}
+[31.159313] (-) TimerEvent: {}
+[31.262146] (-) TimerEvent: {}
+[31.364862] (-) TimerEvent: {}
+[31.467580] (-) TimerEvent: {}
+[31.570259] (-) TimerEvent: {}
+[31.672935] (-) TimerEvent: {}
+[31.775829] (-) TimerEvent: {}
+[31.878504] (-) TimerEvent: {}
+[31.981184] (-) TimerEvent: {}
+[32.085080] (-) TimerEvent: {}
+[32.189293] (-) TimerEvent: {}
+[32.293487] (-) TimerEvent: {}
+[32.397512] (-) TimerEvent: {}
+[32.500537] (-) TimerEvent: {}
+[32.603867] (-) TimerEvent: {}
+[32.706904] (-) TimerEvent: {}
+[32.809938] (-) TimerEvent: {}
+[32.912978] (-) TimerEvent: {}
+[33.015971] (-) TimerEvent: {}
+[33.119145] (-) TimerEvent: {}
+[33.222259] (-) TimerEvent: {}
+[33.325540] (-) TimerEvent: {}
+[33.428844] (-) TimerEvent: {}
+[33.532134] (-) TimerEvent: {}
+[33.635546] (-) TimerEvent: {}
+[33.738813] (-) TimerEvent: {}
+[33.842064] (-) TimerEvent: {}
+[33.945369] (-) TimerEvent: {}
+[34.048753] (-) TimerEvent: {}
+[34.152049] (-) TimerEvent: {}
+[34.255484] (-) TimerEvent: {}
+[34.359096] (-) TimerEvent: {}
+[34.462595] (-) TimerEvent: {}
+[34.566139] (-) TimerEvent: {}
+[34.669741] (-) TimerEvent: {}
+[34.773291] (-) TimerEvent: {}
+[34.876876] (-) TimerEvent: {}
+[34.980476] (-) TimerEvent: {}
+[35.084069] (-) TimerEvent: {}
+[35.187589] (-) TimerEvent: {}
+[35.291370] (-) TimerEvent: {}
+[35.395083] (-) TimerEvent: {}
+[35.499185] (-) TimerEvent: {}
+[35.602959] (-) TimerEvent: {}
+[35.706800] (-) TimerEvent: {}
+[35.810606] (-) TimerEvent: {}
+[35.914343] (-) TimerEvent: {}
+[36.018065] (-) TimerEvent: {}
+[36.122210] (-) TimerEvent: {}
+[36.225975] (-) TimerEvent: {}
+[36.329861] (-) TimerEvent: {}
+[36.433745] (-) TimerEvent: {}
+[36.537731] (-) TimerEvent: {}
+[36.641679] (-) TimerEvent: {}
+[36.745637] (-) TimerEvent: {}
+[36.801469] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[36.806864] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[36.807505] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[36.849432] (-) TimerEvent: {}
+[36.953536] (-) TimerEvent: {}
+[37.057443] (-) TimerEvent: {}
+[37.159612] (-) TimerEvent: {}
+[37.263775] (-) TimerEvent: {}
+[37.367997] (-) TimerEvent: {}
+[37.472218] (-) TimerEvent: {}
+[37.576297] (-) TimerEvent: {}
+[37.680357] (-) TimerEvent: {}
+[37.784492] (-) TimerEvent: {}
+[37.888621] (-) TimerEvent: {}
+[37.992767] (-) TimerEvent: {}
+[38.096912] (-) TimerEvent: {}
+[38.201019] (-) TimerEvent: {}
+[38.305292] (-) TimerEvent: {}
+[38.409499] (-) TimerEvent: {}
+[38.482224] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[38.513425] (-) TimerEvent: {}
+[38.617618] (-) TimerEvent: {}
+[38.720270] (-) TimerEvent: {}
+[38.824476] (-) TimerEvent: {}
+[38.928661] (-) TimerEvent: {}
+[39.032891] (-) TimerEvent: {}
+[39.137102] (-) TimerEvent: {}
+[39.241395] (-) TimerEvent: {}
+[39.345710] (-) TimerEvent: {}
+[39.449983] (-) TimerEvent: {}
+[39.554268] (-) TimerEvent: {}
+[39.658550] (-) TimerEvent: {}
+[39.762875] (-) TimerEvent: {}
+[39.867072] (-) TimerEvent: {}
+[39.971298] (-) TimerEvent: {}
+[40.075517] (-) TimerEvent: {}
+[40.179854] (-) TimerEvent: {}
+[40.205879] (gazebo_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[40.211902] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[40.231933] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[40.272970] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[40.283768] (-) TimerEvent: {}
+[40.335898] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[40.348433] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[40.385278] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[40.385476] (-) TimerEvent: {}
+[40.390350] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[40.391166] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[40.489480] (-) TimerEvent: {}
+[40.593960] (-) TimerEvent: {}
+[40.698407] (-) TimerEvent: {}
+[40.802761] (-) TimerEvent: {}
+[40.907212] (-) TimerEvent: {}
+[41.011662] (-) TimerEvent: {}
+[41.115969] (-) TimerEvent: {}
+[41.220447] (-) TimerEvent: {}
+[41.324990] (-) TimerEvent: {}
+[41.429541] (-) TimerEvent: {}
+[41.534073] (-) TimerEvent: {}
+[41.638646] (-) TimerEvent: {}
+[41.743220] (-) TimerEvent: {}
+[41.847787] (-) TimerEvent: {}
+[41.952351] (-) TimerEvent: {}
+[42.056647] (-) TimerEvent: {}
+[42.061925] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[42.068185] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[42.083433] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[42.123984] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[42.130936] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[42.131643] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[42.159708] (-) TimerEvent: {}
+[42.198203] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[42.246508] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[42.248121] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[42.263661] (-) TimerEvent: {}
+[42.351825] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[42.353413] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[42.356773] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[42.357382] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[42.357844] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[42.363819] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[42.363999] (-) TimerEvent: {}
+[42.364377] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[42.467978] (-) TimerEvent: {}
+[42.572636] (-) TimerEvent: {}
+[42.677213] (-) TimerEvent: {}
+[42.781833] (-) TimerEvent: {}
+[42.886464] (-) TimerEvent: {}
+[42.991079] (-) TimerEvent: {}
+[43.095718] (-) TimerEvent: {}
+[43.200300] (-) TimerEvent: {}
+[43.305026] (-) TimerEvent: {}
+[43.409785] (-) TimerEvent: {}
+[43.514553] (-) TimerEvent: {}
+[43.619237] (-) TimerEvent: {}
+[43.723951] (-) TimerEvent: {}
+[43.828616] (-) TimerEvent: {}
+[43.933259] (-) TimerEvent: {}
+[44.037950] (-) TimerEvent: {}
+[44.142640] (-) TimerEvent: {}
+[44.247371] (-) TimerEvent: {}
+[44.352223] (-) TimerEvent: {}
+[44.454567] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[44.454849] (-) TimerEvent: {}
+[44.467936] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[44.482604] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[44.522510] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[44.532073] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[44.549034] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[44.558889] (-) TimerEvent: {}
+[44.588546] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[44.589030] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[44.589809] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[44.590282] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[44.599443] (gazebo_ros2_control) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[44.599946] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[44.615054] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[44.653864] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[44.659776] (-) TimerEvent: {}
+[44.665456] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[44.725882] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[44.733600] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[44.763890] (-) TimerEvent: {}
+[44.868167] (-) TimerEvent: {}
+[44.873427] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[44.875834] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[44.876754] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sidubuntu/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control/include\n'}
+[44.876884] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[44.878650] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[44.878813] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[44.880705] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[44.883591] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[44.883898] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[44.885531] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[44.889607] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[44.972533] (-) TimerEvent: {}
+[45.036121] (gazebo_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[45.050130] (gazebo_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/sidubuntu/dev_ws/build/gazebo_ros2_control\n'}
+[45.072800] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[45.073313] (-) TimerEvent: {}
+[45.073504] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[45.075619] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sidubuntu/dev_ws/build/gazebo_ros2_control', '--', '-j8', '-l8'], 'cwd': '/home/sidubuntu/dev_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sidubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/sidubuntu'), ('OLDPWD', '/home/sidubuntu/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sidubuntu/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sidubuntu'), ('NAME', 'SidLappy'), ('WSL_INTEROP', '/run/WSL/34102_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/reach/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/reach/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/reach/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/reach/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sidubuntu/dev_ws/install/q_bot:/home/sidubuntu/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sidubuntu/dev_ws/build/gazebo_ros2_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sidubuntu/dev_ws/install/q_bot:/home/sidubuntu/dev_ws/install/my_bot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[45.131103] (gazebo_ros2_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o\x1b[0m\n'}
+[45.133460] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[45.177295] (-) TimerEvent: {}
+[45.281637] (-) TimerEvent: {}
+[45.386459] (-) TimerEvent: {}
+[45.491253] (-) TimerEvent: {}
+[45.596126] (-) TimerEvent: {}
+[45.700944] (-) TimerEvent: {}
+[45.805369] (-) TimerEvent: {}
+[45.910167] (-) TimerEvent: {}
+[46.015113] (-) TimerEvent: {}
+[46.119866] (-) TimerEvent: {}
+[46.224610] (-) TimerEvent: {}
+[46.329137] (-) TimerEvent: {}
+[46.433961] (-) TimerEvent: {}
+[46.538905] (-) TimerEvent: {}
+[46.643737] (-) TimerEvent: {}
+[46.748541] (-) TimerEvent: {}
+[46.853105] (-) TimerEvent: {}
+[46.958001] (-) TimerEvent: {}
+[47.062914] (-) TimerEvent: {}
+[47.167823] (-) TimerEvent: {}
+[47.269750] (-) TimerEvent: {}
+[47.374505] (-) TimerEvent: {}
+[47.479422] (-) TimerEvent: {}
+[47.584465] (-) TimerEvent: {}
+[47.689438] (-) TimerEvent: {}
+[47.794476] (-) TimerEvent: {}
+[47.899315] (-) TimerEvent: {}
+[48.004255] (-) TimerEvent: {}
+[48.109246] (-) TimerEvent: {}
+[48.214220] (-) TimerEvent: {}
+[48.319201] (-) TimerEvent: {}
+[48.424148] (-) TimerEvent: {}
+[48.529112] (-) TimerEvent: {}
+[48.634103] (-) TimerEvent: {}
+[48.739059] (-) TimerEvent: {}
+[48.840417] (-) TimerEvent: {}
+[48.945457] (-) TimerEvent: {}
+[49.050663] (-) TimerEvent: {}
+[49.155868] (-) TimerEvent: {}
+[49.260573] (-) TimerEvent: {}
+[49.364858] (-) TimerEvent: {}
+[49.469684] (-) TimerEvent: {}
+[49.574625] (-) TimerEvent: {}
+[49.679774] (-) TimerEvent: {}
+[49.785017] (-) TimerEvent: {}
+[49.889703] (-) TimerEvent: {}
+[49.994744] (-) TimerEvent: {}
+[50.099832] (-) TimerEvent: {}
+[50.204173] (-) TimerEvent: {}
+[50.309130] (-) TimerEvent: {}
+[50.413825] (-) TimerEvent: {}
+[50.518940] (-) TimerEvent: {}
+[50.624058] (-) TimerEvent: {}
+[50.729148] (-) TimerEvent: {}
+[50.834240] (-) TimerEvent: {}
+[50.939073] (-) TimerEvent: {}
+[51.044188] (-) TimerEvent: {}
+[51.149322] (-) TimerEvent: {}
+[51.253959] (-) TimerEvent: {}
+[51.359080] (-) TimerEvent: {}
+[51.463925] (-) TimerEvent: {}
+[51.568978] (-) TimerEvent: {}
+[51.674082] (-) TimerEvent: {}
+[51.779184] (-) TimerEvent: {}
+[51.884205] (-) TimerEvent: {}
+[51.989200] (-) TimerEvent: {}
+[52.094234] (-) TimerEvent: {}
+[52.198574] (-) TimerEvent: {}
+[52.299749] (-) TimerEvent: {}
+[52.404318] (-) TimerEvent: {}
+[52.509375] (-) TimerEvent: {}
+[52.614552] (-) TimerEvent: {}
+[52.719664] (-) TimerEvent: {}
+[52.824776] (-) TimerEvent: {}
+[52.929898] (-) TimerEvent: {}
+[53.035067] (-) TimerEvent: {}
+[53.140232] (-) TimerEvent: {}
+[53.245269] (-) TimerEvent: {}
+[53.350400] (-) TimerEvent: {}
+[53.454803] (-) TimerEvent: {}
+[53.559888] (-) TimerEvent: {}
+[53.665028] (-) TimerEvent: {}
+[53.770156] (-) TimerEvent: {}
+[53.875300] (-) TimerEvent: {}
+[53.979913] (-) TimerEvent: {}
+[54.085062] (-) TimerEvent: {}
+[54.190312] (-) TimerEvent: {}
+[54.295382] (-) TimerEvent: {}
+[54.400550] (-) TimerEvent: {}
+[54.505229] (-) TimerEvent: {}
+[54.610384] (-) TimerEvent: {}
+[54.715148] (-) TimerEvent: {}
+[54.820279] (-) TimerEvent: {}
+[54.925469] (-) TimerEvent: {}
+[55.030353] (-) TimerEvent: {}
+[55.135580] (-) TimerEvent: {}
+[55.240928] (-) TimerEvent: {}
+[55.346129] (-) TimerEvent: {}
+[55.451363] (-) TimerEvent: {}
+[55.556458] (-) TimerEvent: {}
+[55.661706] (-) TimerEvent: {}
+[55.766932] (-) TimerEvent: {}
+[55.872093] (-) TimerEvent: {}
+[55.977310] (-) TimerEvent: {}
+[56.082487] (-) TimerEvent: {}
+[56.187776] (-) TimerEvent: {}
+[56.292878] (-) TimerEvent: {}
+[56.398039] (-) TimerEvent: {}
+[56.503229] (-) TimerEvent: {}
+[56.607643] (-) TimerEvent: {}
+[56.712822] (-) TimerEvent: {}
+[56.817995] (-) TimerEvent: {}
+[56.923052] (-) TimerEvent: {}
+[57.027548] (-) TimerEvent: {}
+[57.132736] (-) TimerEvent: {}
+[57.237951] (-) TimerEvent: {}
+[57.339774] (-) TimerEvent: {}
+[57.444691] (-) TimerEvent: {}
+[57.549195] (-) TimerEvent: {}
+[57.654351] (-) TimerEvent: {}
+[57.759538] (-) TimerEvent: {}
+[57.864806] (-) TimerEvent: {}
+[57.969788] (-) TimerEvent: {}
+[58.074418] (-) TimerEvent: {}
+[58.179614] (-) TimerEvent: {}
+[58.284783] (-) TimerEvent: {}
+[58.389925] (-) TimerEvent: {}
+[58.495172] (-) TimerEvent: {}
+[58.599951] (-) TimerEvent: {}
+[58.705160] (-) TimerEvent: {}
+[58.810287] (-) TimerEvent: {}
+[58.915559] (-) TimerEvent: {}
+[59.020758] (-) TimerEvent: {}
+[59.125642] (-) TimerEvent: {}
+[59.230806] (-) TimerEvent: {}
+[59.335365] (-) TimerEvent: {}
+[59.440530] (-) TimerEvent: {}
+[59.545820] (-) TimerEvent: {}
+[59.650945] (-) TimerEvent: {}
+[59.756312] (-) TimerEvent: {}
+[59.861649] (-) TimerEvent: {}
+[59.966138] (-) TimerEvent: {}
+[60.069863] (-) TimerEvent: {}
+[60.174601] (-) TimerEvent: {}
+[60.276494] (-) TimerEvent: {}
+[60.377807] (-) TimerEvent: {}
+[60.481326] (-) TimerEvent: {}
+[60.582674] (-) TimerEvent: {}
+[60.684066] (-) TimerEvent: {}
+[60.785368] (-) TimerEvent: {}
+[60.886795] (-) TimerEvent: {}
+[60.988089] (-) TimerEvent: {}
+[61.089680] (-) TimerEvent: {}
+[61.191038] (-) TimerEvent: {}
+[61.292997] (-) TimerEvent: {}
+[61.394952] (-) TimerEvent: {}
+[61.496767] (-) TimerEvent: {}
+[61.598670] (-) TimerEvent: {}
+[61.700664] (-) TimerEvent: {}
+[61.802468] (-) TimerEvent: {}
+[61.904300] (-) TimerEvent: {}
+[62.006201] (-) TimerEvent: {}
+[62.107593] (-) TimerEvent: {}
+[62.209561] (-) TimerEvent: {}
+[62.313932] (-) TimerEvent: {}
+[62.417826] (-) TimerEvent: {}
+[62.520086] (-) TimerEvent: {}
+[62.622324] (-) TimerEvent: {}
+[62.724579] (-) TimerEvent: {}
+[62.826925] (-) TimerEvent: {}
+[62.929194] (-) TimerEvent: {}
+[63.031587] (-) TimerEvent: {}
+[63.134040] (-) TimerEvent: {}
+[63.236563] (-) TimerEvent: {}
+[63.339259] (-) TimerEvent: {}
+[63.441921] (-) TimerEvent: {}
+[63.544539] (-) TimerEvent: {}
+[63.647204] (-) TimerEvent: {}
+[63.749904] (-) TimerEvent: {}
+[63.852534] (-) TimerEvent: {}
+[63.955122] (-) TimerEvent: {}
+[64.057729] (-) TimerEvent: {}
+[64.160613] (-) TimerEvent: {}
+[64.263614] (-) TimerEvent: {}
+[64.366654] (-) TimerEvent: {}
+[64.469660] (-) TimerEvent: {}
+[64.572747] (-) TimerEvent: {}
+[64.676771] (-) TimerEvent: {}
+[64.779664] (-) TimerEvent: {}
+[64.883857] (-) TimerEvent: {}
+[64.987603] (-) TimerEvent: {}
+[65.090704] (-) TimerEvent: {}
+[65.194712] (-) TimerEvent: {}
+[65.297992] (-) TimerEvent: {}
+[65.401229] (-) TimerEvent: {}
+[65.504633] (-) TimerEvent: {}
+[65.607816] (-) TimerEvent: {}
+[65.711813] (-) TimerEvent: {}
+[65.815209] (-) TimerEvent: {}
+[65.918439] (-) TimerEvent: {}
+[66.021667] (-) TimerEvent: {}
+[66.124876] (-) TimerEvent: {}
+[66.228858] (-) TimerEvent: {}
+[66.332429] (-) TimerEvent: {}
+[66.436020] (-) TimerEvent: {}
+[66.539515] (-) TimerEvent: {}
+[66.643065] (-) TimerEvent: {}
+[66.747038] (-) TimerEvent: {}
+[66.851083] (-) TimerEvent: {}
+[66.954534] (-) TimerEvent: {}
+[67.058077] (-) TimerEvent: {}
+[67.161603] (-) TimerEvent: {}
+[67.265762] (-) TimerEvent: {}
+[67.369870] (-) TimerEvent: {}
+[67.473619] (-) TimerEvent: {}
+[67.577292] (-) TimerEvent: {}
+[67.680943] (-) TimerEvent: {}
+[67.784821] (-) TimerEvent: {}
+[67.888994] (-) TimerEvent: {}
+[67.992719] (-) TimerEvent: {}
+[68.096434] (-) TimerEvent: {}
+[68.200162] (-) TimerEvent: {}
+[68.246686] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_hardware_plugins.so\x1b[0m\n'}
+[68.303869] (-) TimerEvent: {}
+[68.407803] (-) TimerEvent: {}
+[68.511867] (-) TimerEvent: {}
+[68.615991] (-) TimerEvent: {}
+[68.720079] (-) TimerEvent: {}
+[68.824422] (-) TimerEvent: {}
+[68.928751] (-) TimerEvent: {}
+[69.032819] (-) TimerEvent: {}
+[69.136947] (-) TimerEvent: {}
+[69.241182] (-) TimerEvent: {}
+[69.345388] (-) TimerEvent: {}
+[69.449513] (-) TimerEvent: {}
+[69.553665] (-) TimerEvent: {}
+[69.635906] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] Built target gazebo_hardware_plugins\n'}
+[69.657577] (-) TimerEvent: {}
+[69.761632] (-) TimerEvent: {}
+[69.865714] (-) TimerEvent: {}
+[69.969750] (-) TimerEvent: {}
+[70.073856] (-) TimerEvent: {}
+[70.177999] (-) TimerEvent: {}
+[70.282281] (-) TimerEvent: {}
+[70.386582] (-) TimerEvent: {}
+[70.490913] (-) TimerEvent: {}
+[70.595213] (-) TimerEvent: {}
+[70.699486] (-) TimerEvent: {}
+[70.803751] (-) TimerEvent: {}
+[70.907982] (-) TimerEvent: {}
+[71.012170] (-) TimerEvent: {}
+[71.116354] (-) TimerEvent: {}
+[71.220580] (-) TimerEvent: {}
+[71.324884] (-) TimerEvent: {}
+[71.429254] (-) TimerEvent: {}
+[71.533639] (-) TimerEvent: {}
+[71.557810] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros2_control.so\x1b[0m\n'}
+[71.637627] (-) TimerEvent: {}
+[71.742019] (-) TimerEvent: {}
+[71.846432] (-) TimerEvent: {}
+[71.950902] (-) TimerEvent: {}
+[72.055403] (-) TimerEvent: {}
+[72.159893] (-) TimerEvent: {}
+[72.264354] (-) TimerEvent: {}
+[72.368835] (-) TimerEvent: {}
+[72.473265] (-) TimerEvent: {}
+[72.577685] (-) TimerEvent: {}
+[72.682151] (-) TimerEvent: {}
+[72.718369] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] Built target gazebo_ros2_control\n'}
+[72.730810] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[72.732204] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'install'}
+[72.741905] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sidubuntu/dev_ws/build/gazebo_ros2_control'], 'cwd': '/home/sidubuntu/dev_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sidubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/sidubuntu'), ('OLDPWD', '/home/sidubuntu/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sidubuntu/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sidubuntu'), ('NAME', 'SidLappy'), ('WSL_INTEROP', '/run/WSL/34102_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/reach/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/reach/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/reach/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/reach/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sidubuntu/dev_ws/install/q_bot:/home/sidubuntu/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sidubuntu/dev_ws/build/gazebo_ros2_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sidubuntu/dev_ws/install/q_bot:/home/sidubuntu/dev_ws/install/my_bot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[72.750372] (gazebo_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[72.751065] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so\n'}
+[72.755039] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/home/sidubuntu/dev_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""\n'}
+[72.755210] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so\n'}
+[72.758374] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/home/sidubuntu/dev_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""\n'}
+[72.758987] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh\n'}
+[72.759414] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv\n'}
+[72.759827] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control\n'}
+[72.759991] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp\n'}
+[72.760332] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp\n'}
+[72.760423] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp\n'}
+[72.760490] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml\n'}
+[72.760803] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control\n'}
+[72.761619] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control\n'}
+[72.761949] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh\n'}
+[72.762251] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv\n'}
+[72.762359] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh\n'}
+[72.762572] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv\n'}
+[72.762864] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash\n'}
+[72.763038] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh\n'}
+[72.763332] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh\n'}
+[72.763432] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv\n'}
+[72.763553] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv\n'}
+[72.763947] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control\n'}
+[72.764077] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control\n'}
+[72.764291] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[72.764563] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[72.764911] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[72.765245] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake\n'}
+[72.765330] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake\n'}
+[72.765394] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/sidubuntu/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml\n'}
+[72.767900] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[72.786440] (-) TimerEvent: {}
+[72.798497] (gazebo_ros2_control) JobEnded: {'identifier': 'gazebo_ros2_control', 'rc': 0}
+[72.799142] (-) EventReactorShutdown: {}

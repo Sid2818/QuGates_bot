@@ -1,0 +1,4 @@
+Invoking command in '/home/sidubuntu/dev_ws/build/qubot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/qubot -- -j8 -l8
+Invoked command in '/home/sidubuntu/dev_ws/build/qubot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/qubot -- -j8 -l8
+Invoking command in '/home/sidubuntu/dev_ws/build/qubot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/qubot
+Invoked command in '/home/sidubuntu/dev_ws/build/qubot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/qubot

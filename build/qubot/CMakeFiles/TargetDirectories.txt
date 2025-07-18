@@ -1,0 +1,9 @@
+/home/sidubuntu/dev_ws/build/qubot/CMakeFiles/uninstall.dir
+/home/sidubuntu/dev_ws/build/qubot/CMakeFiles/qubot_uninstall.dir
+/home/sidubuntu/dev_ws/build/qubot/CMakeFiles/test.dir
+/home/sidubuntu/dev_ws/build/qubot/CMakeFiles/edit_cache.dir
+/home/sidubuntu/dev_ws/build/qubot/CMakeFiles/rebuild_cache.dir
+/home/sidubuntu/dev_ws/build/qubot/CMakeFiles/list_install_components.dir
+/home/sidubuntu/dev_ws/build/qubot/CMakeFiles/install.dir
+/home/sidubuntu/dev_ws/build/qubot/CMakeFiles/install/local.dir
+/home/sidubuntu/dev_ws/build/qubot/CMakeFiles/install/strip.dir

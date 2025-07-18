@@ -1,0 +1,136 @@
+[0.138s] Invoking command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sidubuntu/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos
+[0.411s] -- The C compiler identification is GNU 11.4.0
+[1.078s] -- The CXX compiler identification is GNU 11.4.0
+[1.525s] -- Detecting C compiler ABI info
+[1.753s] -- Detecting C compiler ABI info - done
+[1.763s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.764s] -- Detecting C compile features
+[1.766s] -- Detecting C compile features - done
+[1.773s] -- Detecting CXX compiler ABI info
+[1.972s] -- Detecting CXX compiler ABI info - done
+[1.981s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.982s] -- Detecting CXX compile features
+[1.982s] -- Detecting CXX compile features - done
+[1.987s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.193s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.322s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.396s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.629s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.639s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.659s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.689s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.973s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.083s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.091s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.963s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.879s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.366s] -- Looking for pthread.h
+[10.586s] -- Looking for pthread.h - found
+[10.586s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.786s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.788s] -- Found Threads: TRUE  
+[10.880s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[10.909s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[10.912s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.033s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.040s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.040s] -- Configured cppcheck include dirs: 
+[11.040s] -- Configured cppcheck exclude dirs and/or files: 
+[11.043s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.043s] -- Configured cpplint exclude dirs and/or files: 
+[11.044s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.046s] -- Added test 'lint_cmake' to check CMake code style
+[11.048s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.049s] -- Added test 'uncrustify' to check C / C++ code style
+[11.050s] -- Configured uncrustify additional arguments: 
+[11.051s] -- Added test 'xmllint' to check XML markup files
+[11.054s] -- Configuring done
+[11.103s] -- Generating done
+[11.119s] -- Build files have been written to: /home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos
+[11.136s] Invoked command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sidubuntu/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos
+[11.139s] Invoking command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos -- -j8 -l8
+[11.208s] [  7%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[11.209s] [ 14%] [32mBuilding CXX object CMakeFiles/example_position_pid.dir/examples/example_position_pid.cpp.o[0m
+[11.210s] [ 21%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[11.218s] [ 28%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[11.222s] [ 35%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[11.228s] [ 42%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[11.233s] [ 50%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[29.247s] [ 57%] [32m[1mLinking CXX executable example_effort[0m
+[29.583s] [ 64%] [32m[1mLinking CXX executable example_position_pid[0m
+[29.949s] [ 71%] [32m[1mLinking CXX executable example_gripper[0m
+[29.965s] [ 78%] [32m[1mLinking CXX executable example_diff_drive[0m
+[30.001s] [ 85%] [32m[1mLinking CXX executable example_velocity[0m
+[30.021s] [ 92%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[30.168s] [ 92%] Built target example_effort
+[30.453s] [ 92%] Built target example_position_pid
+[30.835s] [ 92%] Built target example_velocity
+[30.846s] [ 92%] Built target example_gripper
+[30.850s] [ 92%] Built target example_diff_drive
+[30.853s] [ 92%] Built target example_tricycle_drive
+[31.381s] [100%] [32m[1mLinking CXX executable example_position[0m
+[31.831s] [100%] Built target example_position
+[31.848s] Invoked command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos -- -j8 -l8
+[31.849s] Invoking command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos
+[31.860s] -- Install configuration: ""
+[31.860s] -- Execute custom install script
+[31.861s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[31.872s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[31.883s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[31.895s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[31.906s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_namespaced.launch.py
+[31.916s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_pair_namespaced.launch.py
+[31.926s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[31.935s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[31.945s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py
+[31.955s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[31.967s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py
+[31.977s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pids_in_yaml.launch.py
+[31.986s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py
+[31.998s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+[32.009s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+[32.020s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml
+[32.028s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position_with_pids.yaml
+[32.037s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+[32.045s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[32.055s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[32.066s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller_namespaced.yaml
+[32.076s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[32.086s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[32.098s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[32.110s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[32.120s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[32.131s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[32.144s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive_namespaced.xacro.urdf
+[32.155s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[32.166s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[32.179s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[32.189s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[32.202s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf
+[32.211s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pids_in_yaml.xacro.urdf
+[32.220s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf
+[32.229s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[32.240s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid
+[32.250s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[32.260s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[32.271s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[32.281s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[32.291s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[32.305s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[32.316s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[32.329s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[32.341s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[32.353s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[32.367s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[32.380s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[32.393s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[32.407s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[32.417s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[32.427s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[32.439s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[32.448s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[32.456s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[32.465s] -- Symlinking: /home/sidubuntu/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[32.493s] Invoked command in '/home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sidubuntu/dev_ws/build/gazebo_ros2_control_demos
